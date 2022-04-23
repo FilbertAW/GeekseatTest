@@ -1,0 +1,54 @@
+$light: 1px;
+$regular: 2px;
+$heavy: 4px;
+$width: 100%;
+$black: black;
+$solid: solid;
+$dashed: dashed;
+$dotter: dotted;
+$font15: 15px;
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.border__solid--light {
+  border-bottom: $light $solid $black;
+  width: $width;
+}
+.border__solid--regular {
+  border-bottom: $regular $solid $black;
+  width: $width;
+}
+.border__solid--heavy {
+  border-bottom: $heavy $solid $black;
+  width: $width;
+}
+.border__dotted--light {
+  border-bottom: $light $dotter $black;
+  width: $width;
+}
+.border__dotted--regular {
+  border-bottom: $regular $dotter $black;
+  width: $width;
+}
+.border__dotted--heavy {
+  border-bottom: $heavy $dotter $black;
+  width: $width;
+}
+.border__dashed--light {
+  border-bottom: $light $dashed $black;
+  width: $width;
+}
+.border__dashed--regular {
+  border-bottom: $regular $dashed $black;
+  width: $width;
+}
+.border__dashed--heavy {
+  border-bottom: $heavy $dashed $black;
+  width: $width;
+}
+.content {
+  padding: 0 4px;
+  font-size: $font15;
+}

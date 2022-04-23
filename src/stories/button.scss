@@ -1,0 +1,19 @@
+$primary: #e84c22;
+$secondary: #3e3e3e;
+$primaryOpacity80: #e84c22cc;
+
+.btn {
+  font-size: 15px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: $primary;
+  &:hover {
+    background-color: $primaryOpacity80;
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+}
